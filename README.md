@@ -9,5 +9,6 @@ pr builds
 user1
 
 build 2
+cache reset
 
 disable pr
