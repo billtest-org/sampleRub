@@ -8,3 +8,5 @@ pr builds
 user1
 
 build 2
+
+disable pr
