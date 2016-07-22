@@ -13,4 +13,5 @@ rvm:
 build:
   ci:
     - ruby -v
+  cache: true
     
