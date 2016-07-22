@@ -1,5 +1,7 @@
 language: ruby
 
+env:
+  - foo=bar
 
 # Version number
 rvm:
