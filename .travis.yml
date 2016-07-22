@@ -1,5 +1,7 @@
 language: ruby
 
+env:
+  - foo=bar
 
 # Version number
 rvm:
@@ -11,4 +13,5 @@ rvm:
 build:
   ci:
     - ruby -v
+  cache: true
     
