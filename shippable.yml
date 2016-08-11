@@ -5,8 +5,7 @@ language: ruby
 rvm:
   - 1.9.3
   
-services:
- - selenium
+
 
 build:
   pre_ci_boot:
@@ -16,3 +15,5 @@ build:
     
   ci:
     - ruby -v
+    
+  cache: true
