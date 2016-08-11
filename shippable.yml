@@ -8,10 +8,7 @@ rvm:
   
 
 build:
-  pre_ci_boot:
-    image_name: drydock/u14rubpls
-    image_tag: prod
-    pull: true  
+  
     
   ci:
     - ruby -v
