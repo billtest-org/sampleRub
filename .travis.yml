@@ -14,5 +14,4 @@ rvm:
 build:
   ci:
     - ruby -v
-  cache: true
-    
+    - sleep 10m
